@@ -9,7 +9,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-app-backend-virid-delta.vercel.app", // React app URL
+    origin: "https://chat-app-client-sepia-three.vercel.app", // React app URL
     methods: ["GET", "POST"],
   },
 });
